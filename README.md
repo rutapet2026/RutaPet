@@ -1,54 +1,30 @@
-♻️ Ruta PET Protocol
-Infrastructure for PET Plastic Traceability & Extended Producer Responsibility (EPR) Compliance in LATAM
+# ♻️ Ruta PET Protocol
 
-📌 Overview
-Ruta PET (by Circular Polymer Labs LLC) is a ReFi (Regenerative Finance) & IoT protocol designed to bring radical transparency to post-consumer plastic recovery in Latin America.
+> **Infrastructure for PET Plastic Traceability & Extended Producer Responsibility (EPR) Compliance in LATAM**
 
-By combining BLE-enabled scales, mobile geofencing, and immutable smart contracts, Ruta PET enables consumer goods corporations to fulfill legal EPR requirements (such as Colombia's Resolution 1407/2018) while executing direct micropayouts to informal waste collectors.
+## 📌 Overview
 
-⚙️ Core Architecture
-[ BLE Smart Scale ] ---> (Weight Data) ---> [ Mobile App ] ---> (PoC Signature) ---> [ Smart Contracts ]
-[ GPS Geofencing ]  ---> (Location) ------/                                              │
-▼
-[ Verifiable Plastic Credit ]
+**Ruta PET** (by Circular Polymer Labs LLC) is a ReFi & IoT protocol designed to bring radical transparency to post-consumer plastic recovery in Latin America. 
 
-Key Technical Pillars:
-Proof of Collection (PoC): High-density telemetry capture validating weight, timestamps, and GPS coordinates during collection.
+By combining BLE-enabled scales, mobile geofencing, and immutable smart contracts, Ruta PET enables consumer goods corporations to fulfill legal EPR requirements (Resolution 1407/2018) while executing direct micropayouts to informal waste collectors.
 
-Standardized Tokenomics:
+## ⚙️ Core Architecture
 
-1 RPET Token = 1,000 kg (1 Metric Ton) of verified recycled PET.
+- **IoT Data Capture:** BLE Smart Scales + GPS Geofencing
+- **Proof of Collection (PoC):** Verifiable telemetry and timestamps
+- **Tokenomics:** 1 RPET Token = 1,000 kg (1 Metric Ton) of recycled PET
 
-Fiduciary Integration: Direct, automated disbursements to waste collectors triggered upon verified smart contract execution.
+## 🛠 Tech Stack
 
-🛠 Tech Stack
-Hardware / IoT: BLE 4.0/5.0 Digital Scales + Dual-sensor GPS logging.
+- **Hardware:** BLE 4.0/5.0 Digital Scales
+- **Mobile Client:** React Native / Android App
+- **Blockchain:** EVM (Polygon / Arbitrum), Solana, Stellar/Soroban
+- **Database:** PostgreSQL for Enterprise ESG Audits
 
-Mobile Client: Android / React Native framework.
+## 🌐 Community & Contact
 
-Blockchain Layer: EVM (Polygon / Arbitrum), Solana Devnet, and Stellar/Soroban smart contracts.
-
-Database & Indexing: PostgreSQL / SQL event indexing for enterprise ESG audits.
-
-📑 Documentation & Specs
-📘 Whitepaper & Validation Protocol
-
-🗄 Database Schema (SQL)
-
-⚖️ EPR Compliance Framework
-
-📑 Documentation & Specs
-📘 Whitepaper & Validation Protocol
-
-🗄 Database Schema (SQL)
-
-⚖️ EPR Compliance Framework
-
-🌐 Community & Contact
-Organization: Circular Polymer Labs LLC
-
-Twitter / X: https://x.com/RutaPET_Latam
-
-Telegram: https://t.me/Rutapet
-
-Location: Sincelejo, Colombia / USA
+- **Organization:** Circular Polymer Labs LLC
+- **Twitter / X:** [@RutaPET_Latam](https://x.com/RutaPET_Latam)
+- **Telegram:** [@Rutapet](https://t.me/Rutapet)
+- **Location:** Sincelejo, Colombia / USA
+- 
